@@ -16,4 +16,6 @@ echo "単価: " . $price . "円<br>";
 echo "数量: " . $quantity . "円<br>";
 echo "消費税(" . ($tax_rate * 100) . "%): " . $tax_amount . "円<br>";
 echo "<strong>合計金額: " . $total . "円</strong><br>";
+echo "商品名: {$product_name}<br>";
+
 ?>
